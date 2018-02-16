@@ -25,14 +25,14 @@ opts_knit$set(width=75)
 ```
 
 
-## ATAC-seq, MNAse-seq and DNAse-seq
+## ATAC-seq, MNase-seq and DNase-seq
 
 
-![ATAC,MNAse,DNAse](https://www.the-scientist.com/January2016/LT2_2.jpg)
+![ATAC,MNase,DNase - https://www.the-scientist.com/?articles.view/articleNo/44772/title/Reveling-in-the-Revealed/](https://www.the-scientist.com/January2016/LT2_2.jpg)
 
-* DNAse-seq - Enzymatic digestion to extract signal from open chromatin around transcription factor binding sites.
+* DNase-seq - Enzymatic digestion to extract signal from open chromatin around transcription factor binding sites.
 
-* MNAse-seq - Enzymatic digestion to extract signal repesenting nucleosome positioning.
+* MNase-seq - Enzymatic digestion to extract signal repesenting nucleosome positioning.
 
 * ATAC-seq - Uses transposases and offers a method to simultaneously extract signal from transcription factors binding sites and nucleosome positions from a single sample.
 
