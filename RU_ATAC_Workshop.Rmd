@@ -307,7 +307,7 @@ sortedBAM <- "ATAC_Data/ATAC_BAM/Sorted_ATAC_50K_2.bam"
 
 ### Number of mapped reads
 
-We can now check the mapping rate to make sure we do have any problems with the aligmnent.
+We can now check the mapping rate to make sure we do not have any problems with the aligmnent.
 Here we use Rsubread's propmapped to give us number of mapped, unmapped and mapping percentage
 
 **This takes awhile so run this after workshop if interested**
@@ -515,7 +515,7 @@ Here we create BAM files for the reads representing nucleosome free, mono and di
 
 ```{r processData_createOpenRegionBAM, echo=TRUE,eval=TRUE,cache=TRUE,dependson=c("processData_extractingRead1","processData_readingInData")}
 atacReads_Open <- atacReads[insertSizes < 100,]
-atacReads_MonoNuc <- atacReads[insertSizes > 160 & insertSizes < 240,]
+atacReads_MonoNuc <- atacReads[insertSizes > 180 & insertSizes < 240,]
 atacReads_diNuc <- atacReads[insertSizes > 315 & insertSizes < 437,]
 ```
 
